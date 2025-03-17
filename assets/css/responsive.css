@@ -1,0 +1,602 @@
+@media (min-width: 1441px) and (max-width: 1920px) {
+    .rightAlignDiv {margin-right: calc((-100vw + 1350px) / 2); margin-left: auto;}
+    }
+    
+    @media screen and (max-width: 1440px){
+    h1 {font-size:80px;}
+    h2, .h2 {font-size: 50px;}
+    h3 {font-size: 36px;}
+    .container{max-width:1230px !important;}
+    .navigation ul li{font-size:15px;margin-right:30px;}
+    .sub-menu-links ul li {margin-right: 0;}
+    .sub-menu-container {max-width: 1230px;}
+    .sub-menu-links ul li a {font-size: 16px;padding: 24px 0;}
+    .banner-video {width: calc((100vw + 325px) / 2);}
+    .banner-right {width: calc((100vw - 326px) / 2);}
+    .video-caption {max-width: 830px;padding-right: 120px; left: calc((100vw - 1382px) / 2);}
+    .video-caption-list ul li {font-size: 28px;padding-right: 30px;margin-right: 30px;}
+    .video-caption-list ul li small {font-size: 14px;}
+    .banner-caption-card {padding: 0 40px;}
+    .our-calculator-block .container {max-width: 1030px !important;}
+    .helped-over-block .heading-block {padding-left: 80px;}
+    .helped-over-block .heading-block h2 {font-size: 60px;}
+    .helped-over-info ul li {margin-bottom: 20px;}
+    .helped-over-info ul li span {font-size: 20px;padding-bottom: 5px;}
+    .quote-inner:before {left: -100px;}
+    .quote-inner:after {right: -100px;}
+    .brighter-future-left {padding-left: 80px;padding-right: 50px;}
+    .future-tx {top: 30px;left: -80px;width: 140px;height: 140px;}
+    .future-tx span {font-size: 14px;}
+    .future-tx span strong {font-size: 30px;}
+    .blog-card-img {height: 180px;}
+    .blog-card-info {padding:30px;}
+    .benefits-info {padding-left: 50px;}
+    .about-section-one .heading-block {padding-left: 60px;}
+    .about-section-one-info p {font-size: 17px;}
+    .about-section-six .helped-over-img {margin-right: 0;}
+    .top-blog-card {max-width: 590px;padding-right: 50px;padding-top: 50px;padding-bottom: 50px;}
+    .blog-section-one-right {padding-left: 50px;padding-top: 50px;padding-bottom: 50px;padding-right: 50px;}
+    .blog-section-one-right .blog-card-img {height: 250px;}
+    .blog-section-one-right .blog-card-info {padding: 40px;}
+    .helped-transition .helped-over-img {margin-right: 0;}
+    .infoTooltip {width: 240px;padding: 13px 14px;font-size: 13px;}
+    .tab-custom .nav-tabs .nav-link {font-size: 16px; padding: 4px 28px 2px;}
+    .resultNo {padding: 15px 38px;}
+    /******Quote-Page-Css-Start******/
+    .review-slide {padding-left: calc((100vw - 1200px) / 2);}
+    .review-slide .owl-nav {right: calc((100vw - 1200px) / 2);}
+    .reviewBox {width: 570px; font-size: 18px;}
+    .page-template-page-standard-tmp .main-wrapper h2 {font-size: 36px;}
+    .page-template-page-standard-tmp .benefits-info h2 {font-size: 36px;}
+    /*****System-size-page-css-start*****/
+    .saving-calculator-uper {top: 85px;}
+    .systemSizeCalculator .leftCalculatorBlock {padding: 42px 50px 42px 30px;width: 390px;}
+    .systemSizeCalculator .rightResultBlock {width: calc(100% - 390px);}
+    .systemSizeCalculator .resultShow {padding: 35px 0;max-width: 730px;}
+    .systemSizeCalculator .resultStats .stats strong {font-size: 35px;}
+    .systemSizeCalculator .resultStats .rightStats .stats strong {font-size: 70px;}
+    .systemSizeCalculator .resultStats .rightStats .stats b {font-size: 35px;}
+    .systemSizeCalculator .resultShow .quote-footer {padding: 35px 30px;}
+    .systemSizeCalculator .resultShow .quote-footer .quote-left-text {width: calc(100% - 210px);}
+    /******Standard-page-css-start******/
+    .imageTextBlock .contentBlock.padL {padding: 0 0 0 60px;}
+    .cardBlock.centerBlock .row {margin-left: -15px; margin-right: -15px;}
+    .cardBlock.centerBlock [class*="col-"] {padding-left: 15px; padding-right: 15px;}
+    .cmsContent h4.mrg-t100 {margin-top: 60px;}
+    .cmsContent h4.mrg-t145 {margin-top: 75px;}
+    /*popular calculators css start*/
+    .popular-calculators {padding: 65px 0 100px; font-size: 15px;}
+    .popular-calculators .section-title {font-size: 17px;}
+    .cost-saving-left {padding: 55px 35px;width: calc(100% - 420px);}
+    .cost-saving-left .content-block {width: calc(100% - 110px);}
+    .cost-saving-block .calculate-saving {width: 420px;padding: 55px 45px 35px;}
+    .calculator-type {padding: 35px 25px 45px;}
+    .calculator-type h4 {font-size: 25px;}
+    /*popular calculators css end*/
+    }
+    
+    @media screen and (max-width: 1199px){
+    h1 {font-size: 60px;}
+    h2, .h2 {font-size: 40px;}
+    h3 {font-size: 30px;}
+    h4 {font-size: 24px;}
+    h5 {font-size: 20px;}
+    .padding-top-100 {padding-top: 80px;}
+    .padding-top-bottom-130 {padding-top: 80px;padding-bottom: 80px;}
+    .padding-top-bottom-100 {padding-top:80px;padding-bottom:80px;}
+    .btn-custom {padding: 0px 20px;height: 40px;line-height: 37px;font-size: 15px;}
+    .btn-custom.filled {line-height: 37px;}
+    .outline-btn {line-height: 39px;}
+    .small-btn {height: 32px;line-height: 30px;font-size: 14px;}
+    .heading-block {padding-bottom: 40px;}
+    /*header-search-start*/
+    .search-head {padding-left: 20px;padding-top: 0;min-height: 85px;padding-bottom: 0;}
+    .search-head .search-header-sec {min-width: 650px;width: 650px;}
+    .search-head .search-header-sec .form-control {height: 48px; padding: 0 100px 0 50px;}
+    /*header-search-end*/
+    .video-caption {max-width: 600px;padding-right: 60px;padding-left: 0; left: 20px;}
+    .banner-caption-card {padding: 0 20px;}
+    .proudly-featured-block ul li {margin: 0 10px;}
+    .how-works-card i {padding-bottom: 20px;width: 100px;margin: 0 auto;}
+    .our-calculator-block .container {max-width: 800px !important;}
+    .our-calculator-block .heading-block p {font-size: 16px;}
+    .our-calculator-card i {margin-right: 10px;width: 50px;flex: 0 0 50px;}
+    .saving-calculator-right {flex: 0 0 auto;}
+    .saving-calculator-uper .error-message-sec {width: 150px;flex: 0 0 150px;margin-right: 15px;margin-left: 15px;}
+    .guide-left p {font-size: 16px;}
+    .guide-slider-card {padding: 20px;}
+    .guide-slider-block {padding-left:30px;}
+    .resource-right-block {padding-left:30px;}
+    .guide-tag {padding-bottom: 10px;}
+    .helped-over-block {padding-top: 80px;padding-bottom:40px;}
+    .helped-over-block .heading-block {padding-left: 0;}
+    .helped-over-block .heading-block h2 {font-size: 50px;}
+    .helped-over-info {padding-left: 0;}
+    .helped-over-col {padding-bottom: 50px;}
+    .know-block {padding: 20px;}
+    .know-block-inst i {width: 100px;flex: 0 0 100px;margin-right:10px;}
+    .know-block-inst p {font-size: 16px;}
+    .quote-block {min-height: 280px;}
+    .quote-heading {font-size: 34px;max-width: 730px;}
+    .quote-inner:before {left:-60px;}
+    .quote-inner:after {right:-60px;}
+    .brighter-future-left {padding-left: 0;}
+    .brighter-future-text {padding-top: 20px;padding-bottom: 20px;}
+    .brighter-future-text p {font-size: 16px;}
+    .future-tx {top: 30px;left: -60px;width: 100px;height: 100px;}
+    .future-tx span {font-size: 12px;}
+    .future-tx span strong {font-size: 24px;}
+    .blog-card-img {height: 146px;}
+    .blog-card-info {padding: 15px;}
+    .benefits-info {padding-left: 30px;}
+    .footer-right {padding-left: 50px;}
+    .about-section-one .heading-block {padding-left: 0;}
+    .about-section-one-info {padding-top: 50px;}
+    .about-section-one-info p {font-size: 16px;}
+    .about-section-five .guide-slider-block {padding-left: 80px;padding-right: 0;}
+    .top-blog-card {max-width: 100%;padding-right:30px;padding-top:30px;padding-bottom:30px;padding-left:30px;}
+    .blog-section-one-right {padding-left:30px;padding-top:30px;padding-bottom:30px;padding-right:30px;}
+    .blog-section-one {min-height: 650px;}
+    .blog-section-one-right .blog-card-img {height: 200px;}
+    .blog-section-one-right .blog-card-info {padding:30px;}
+    .contact-page-main-card .heading-block, .contact-detail-block {padding-left: 0;}
+    .contact-detail-block p {font-size: 16px;}
+    .contact-detail-block {max-width: 400px;}
+    .contact-links {font-size: 16px;}
+    .electricity-tag-left {padding-left: 15px;padding-right: 20px;}
+    .electricity-tag-right {padding-left: 20px;}
+    .infoTooltip {width: 200px;}
+    .results-card-block-right {padding: 35px 30px;}
+    .tab-custom .nav-tabs .nav-link {font-size: 15px;padding: 4px 22px 3px;}
+    .resultNo b {font-size: 32px;}
+    .quote-footer {padding: 50px 70px;}
+    .disclaimerText{padding: 40px 65px 0;}
+    .offered-checkbox label {font-size: 15px; padding: 15px;}
+    .disclaimer-page-heading h1 {font-size: 50px;}
+    /******Quote-Page-Css-Start******/
+    .review-slide {padding-left: 15px;}
+    .review-slide .owl-nav {right: 15px;}
+    /*****System-size-page-css-start*****/
+    .systemSizeCalculator .resultShow {max-width: 525px;}
+    .systemSizeCalculator .resultStats .stats strong {font-size: 30px;}
+    .systemSizeCalculator .resultStats .rightStats .stats strong {font-size: 60px;}
+    .systemSizeCalculator .resultStats .rightStats .stats b {font-size: 30px;}
+    .systemSizeCalculator .resultShow .quote-footer {padding: 35px 30px;}
+    .systemSizeCalculator .resultShow .quote-footer .quote-left-text {width: calc(100% - 210px);}
+    .solarSystemInfo .infoContentBlock {margin-top: 40px;}
+    .systemSizeCalculator .postcode-input .offered-checkbox label {padding: 15px;}
+    .systemSizeCalculator .resultStats.electricity .leftStats .stats {width: 100%;}
+    .stepBLock {padding: 50px 30px;}
+    .page-template-page-standard-tmp .main-wrapper h2 {font-size: 30px;}
+    .page-template-page-standard-tmp .benefits-info h2 {font-size: 30px;}
+    /******Standard-page-css-start******/
+    .imageTextBlock .contentBlock.padL {padding: 0 0 0 20px;}
+    .imageTextBlock .contentBlock.padR {padding: 0 20px 0 0;}
+    .blog-page-detail-top-left h1 {font-size: 60px;}
+    /*popular calculators css start*/
+    .popular-calculators {padding: 50px 0 70px; font-size: 14px;}
+    .popular-calculator-block .solar-saving-heading {padding-bottom: 15px;}
+    .popular-calculators .section-title {font-size: 15px;}
+    .cost-saving-block {margin-top: 50px;}
+    .cost-saving-left {padding: 35px 20px;width: calc(100% - 325px);}
+    .cost-saving-left i {max-width: 70px;}
+    .cost-saving-left .content-block {width: calc(100% - 90px);}
+    .cost-saving-block .calculate-saving {width: 325px;padding: 35px 30px 25px;}
+    .calculator-type {padding: 25px 20px 35px;}
+    .calculator-type .icon {max-width: 72px; margin-bottom: 15px;}
+    .calculator-type h4 {font-size: 22px;}
+    .calculator-type .small-btn {padding: 0 10px; line-height: 29px;}
+    .solar-saving-heading p {font-size: 17px;}
+    .resutlBtnGroup {max-width: 369px;}
+    /*popular calculators css end*/
+    }
+    
+    @media screen and (max-width: 991px){
+    h1 {font-size: 40px;}
+    h2, .h2 {font-size: 30px;}
+    h3 {font-size: 24px;}
+    h4 {font-size: 20px;}
+    h5 {font-size: 18px;}
+    .padding-top-100 {padding-top:60px;}
+    .padding-top-bottom-130 {padding-top:60px;padding-bottom:60px;}
+    .padding-top-bottom-100 {padding-top:60px;padding-bottom:60px;}
+    .padding-top-bottom-60 {padding-top:40px;padding-bottom:40px;}
+    .btn-custom {height: 46px;line-height: 43px;}
+    .btn-custom.filled {line-height: 44px;}
+    .outline-btn {line-height: 44px;}
+    .small-btn {height: 32px;line-height: 32px;font-size: 14px;}
+    .scroll-hidden {overflow: hidden;}
+    .navigation-menu {padding-bottom: 30px;}
+    .menuImage{float:none;height:auto;margin:0;position:absolute;right:15px;top:28px;z-index:999;}
+    .iphon_navigation {background-color: #F8F6F3;bottom: 0;display: flex!important;left: -100%;overflow-y: auto;margin: 0 !important;position: fixed;top: 82px;transition: all 0.3s ease;-moz-transition: all 0.3s ease;width: 100%;z-index: 9999;padding: 15px !Important;height: calc(100% - 82px) !important;right:auto;flex-direction: column;justify-content: space-between;}
+    .nav-open {left: 0;}
+    .iphon_navigation ul{border-top:solid 1px #C6C6C6;margin:0 15px;}
+    .iphon_navigation ul li{display:block;font-family: 'pp_telegrafultrabold';position: relative;border-bottom:solid 1px #C6C6C6;}
+    .iphon_navigation ul li:last-child {border: 0;}
+    .iphon_navigation ul li a{font-family: 'PP Telegraf'; font-weight: bold; color:#315A43;display:block;font-size:22px;padding: 15px 0;}
+    .iphon_navigation .sub-menu-container ul {margin: 0; padding: 0 10px;}
+    .iphon_navigation ul.sub-menu.subMenu {display: none;margin: 0; border: 0;}
+    .iphon_navigation ul.sub-menu.subMenu ul.sub-menu.subMenu{background:#293a81;}
+    .iphon_navigation .sub-child-menu.subMenu {display:  block!important; margin: 0; padding: 0 10px;}
+    .iphon_navigation .sub-menu-container .parentMenu > div.subItem {display: none;}
+    .parentMenuActive > div.subItem{width:30px;height:64px;position:absolute;right:0;top:0;background:url(../images/faq-arrowdown.svg) no-repeat center !important;cursor:pointer;}
+    .parentMenu > div.subItem{background:url(../images/faq-arrowup.svg) no-repeat center;cursor:pointer;position:absolute;right:0;top:0;width:30px;height:64px;}
+    .iphon_navigation ul.sub-menu.subMenu .dropdown-nav.parentMenu a {color: #394D42; font-size: 18px;}
+    .iphon_navigation ul li .sub-child-menu.subMenu li:last-child {border-bottom: 0;}
+    .iphon_navigation .sub-child-menu.subMenu li a {font-family: 'pp_telegrafregular'; font-weight: 400;}
+    .sub-menu-container {padding: 0;}
+    .sub-menu-right {max-width: 100%;padding-right: 0;padding-left: 16px; flex: 0 0 100%;}
+    .iphon_navigation .sub-menu-links ul {width: 100%;margin: -1px 0 -1px 0;}
+    .iphon_navigation .sub-menu-links ul li a{font-size: 16px;padding: 15px 0;font-family: 'pp_telegrafregular';}
+    .sub-menu-right.calculators-sub-menu {padding: 0 10px; border-top: solid 1px #c6c6c6;}
+    .calculators-sub-menu .our-calculator-card{margin-bottom:-1px;padding: 0;background: transparent;border-bottom: solid 1px #C6C6C6;display: block !important;}
+    .calculators-sub-menu .our-calculator-card i{display: none;}
+    .calculators-sub-menu .our-calculator-card .calc-title{font-size: 16px;font-family: 'pp_telegrafregular';    color: #315A43;}
+    .calculators-sub-menu .our-calculator-card .calc-title strong{    color: #315A43;display: inline-block;font-weight:400;}
+    .sub-menu-right.calculators-sub-menu .our-calculator-card {padding: 15px 0; margin: 0;}
+    .sub-menu-right.calculators-sub-menu [class*="col-"]:last-child .our-calculator-card {border: 0; margin: 0;}
+    .iphonNav .head-btn {display: block;}
+    .head-btn, .search-head{display: none;}
+    .iphonNav .head-btn .btn-custom{display: block;width: 100%;margin-bottom:16px;}
+    .sub-menu-left{display: none;}
+    .header {padding: 20px 0;}
+    .mobile-search{display: block;}
+    .heading-block p {padding-top: 10px;}
+    .banner-block {min-height: 500px;}
+    .banner-video {width: 60%;flex: 0 0 60%;}
+    .banner-right {width: 40%;flex: 0 0 40%;}
+    .video-caption {padding-left: 15px;}
+    .video-caption h1 {margin-bottom:20px;}
+    .video-caption-list ul li {font-size: 24px;padding-right: 20px;margin-right: 20px;}
+    .video-caption-list ul li small {font-size: 12px;}
+    .banner-caption-card {padding: 20px;height: 62%;}
+    .dark-card-banner {height: 38%;}
+    .proudly-featured-block ul li {margin:0;}
+    .how-works-card i {width: 80px;}
+    .our-calculator-block .heading-block {max-width: 630px;}
+    .our-calculator-card {margin-bottom:20px;padding: 10px;}
+    .guide-slider-block {padding-left: 0;padding-bottom:30px;}
+    .resource-right-block {padding-left: 0;}
+    .guide-slider-card {padding: 10px;}
+    .guide-slider-img {width: 185px;flex: 0 0 185px;margin-right: 15px;}
+    .guide-slider-info h4 {line-height: 1;margin: 0 0 10px;}
+    .guide-slider-info p {line-height: 1.2;margin-bottom: 5px;}
+    .resource-img {margin-right:10px;}
+    .accordion-custom .card-link {font-size: 16px;padding: 10px 0;}
+    .itinerary-body {padding-bottom: 10px;}
+    .itinerary-body p{font-size:14px;}
+    .helped-over-block {padding-top: 60px;padding-bottom:20px;}
+    .helped-over-block .heading-block h2 {font-size: 40px;}
+    .helped-over-info ul li {padding-left: 25px;margin-bottom:10px;background-size: 16px;}
+    .helped-over-info ul li span {font-size: 18px;padding-bottom: 5px;line-height: 1;}
+    .quote-heading {font-size: 30px;max-width:580px;}
+    .quote-inner:before {left:-40px;}
+    .quote-inner:after {right:-40px;}
+    .blog-card-img {height: 110px;}
+    .footer-left {padding-top: 30px;padding-bottom: 30px;}
+    .ft-logo {margin-bottom:20px;}
+    .ft-info-heading {padding-bottom: 5px;}
+    .ft-info-link {font-size: 15px;padding-bottom: 10px;}
+    .ft-info-block {padding-bottom: 10px;}
+    .footer-right {padding-left:30px;padding-top: 30px;padding-bottom:30px;}
+    .about-section-one-info {padding-top: 0;}
+    .client-logo-list {margin: 0 -15px;}
+    .client-logo-list li {padding-left: 15px;padding-right: 15px;}
+    .about-section-five .guide-left h4 {padding-bottom: 30px;}
+    .about-section-five .guide-slider-block {padding-left: 20px;padding-right: 0;}
+    .about-section-five .helped-over-info {padding-left: 0;padding-top: 20px;}
+    .about-section-six .helped-transition-li ul li {padding-right:20px;font-size: 16px;}
+    .about-section-six .heading-block {padding-bottom:20px !important;}
+    .about-section-saven-bottom {padding-top: 100px;}
+    .top-blog-card {padding-right:15px;padding-top:15px;padding-bottom:15px;padding-left:15px;}
+    .blog-section-one-right {padding-left:15px;padding-top:15px;padding-bottom:15px;padding-right:15px;}
+    .blog-section-one-right .blog-card-img {height:160px;}
+    .blog-section-one-right .blog-card-info {padding:20px;}
+    .top-blog-card p {max-width:100%;font-size: 16px;}
+    .about-section-saven-card i {width: 56px;flex: 0 0 56px;height: 60px;margin-right: 20px;}
+    .user-name-dsp {font-size: 16px;}
+    .saving-categories {padding: 50px 0;}
+    .contact-page-form textarea.form-control {height: 140px;}
+    .contact-page-form {padding: 15px;}
+    .blog-page-detail-top {text-align: center;padding-bottom: 30px;}
+    .detail-top-tag {justify-content: center;}
+    .blog-page-detail-main-content:after {height: 440px;}
+    .detail-category-tag {justify-content: center;}
+    .article-description-block {padding: 25px;margin-bottom: 50px;}
+    .blog-page-detail-content-img {margin-bottom: 50px;}
+    .quote-style {font-size: 22px;padding-left: 20px;margin-bottom: 50px;}
+    .post-tag-by {padding-bottom: 15px;}
+    .post-user-card {padding: 25px;}
+    .post-user-card-left {margin-right: 0;margin-bottom: 30px;}
+    .blog-page-detail-top-right .post-user-card-left {display: none !important;}
+    .blog-page-detail-top-right {max-width: 100%;}
+    .blog-page-detail-top-right-social {border-top: solid 1px #C6C6C6;margin-top:40px;text-align: center;}
+    .blog-page-detail-top-right .social-links {justify-content: center;}
+    .blog-page-detail-main-content {padding-bottom: 40px !important;}
+    .infoTooltip {left: auto;right: -8px;width: 300px; top: 100%; z-index: 1; margin-top: 15px;}
+    .infoTooltip::after {border-bottom-color: #D6E1D4; right: 5px;top: -9px; border-right-color: transparent;}
+    .calcultorSlider .our-calculator-card {width: 230px;min-height: 270px;}
+    .results-card-block {padding: 0 30px;}
+    .results-card-inst {margin-right: 35px;}
+    .resutlStats {padding: 30px 0;}
+    .resultNo {padding: 10px 20px;}
+    .resultNo b {font-size: 30px; margin-top: 5px;}
+    .resutlBtnGroup {gap: 10px;padding-top: 35px;}
+    .quote-footer {padding: 50px 25px;}
+    .disclaimerText {padding: 35px 20px 0;}
+    .tab-custom .nav-tabs .nav-link{padding: 4px 10px 3px;}
+    .saving-calculator-uper {top: 82px;}
+    .disclaimer-page-heading h1 {font-size: 40px;}
+    .tab-custom.solar-battery-cal .nav-tabs .nav-link {padding: 4px 5px 2px;font-size: 14px;}
+    /******Quote-Page-Css-Start******/
+    .reviewBox {width: 450px;font-size: 18px;}
+    /*****System-size-page-css-start*****/
+    .systemSizeCalculator {overflow-x: hidden;}
+    .systemSizeCalculator .leftCalculatorBlock {width: 100%; padding: 34px 10px 35px 10px;}
+    .systemSizeCalculator .leftCalculatorBlock::after {background-color: #fcfcfc;width: 100vw;height: 100%;content: "";position: absolute;right: -100vw;top: 0;}
+    .systemSizeCalculator .rightResultBlock {width: 100%;}
+    .systemSizeCalculator .resultShow {max-width: 100%;}
+    .textBtnBlock {padding: 25px 30px;}
+    .solarSystemInfo .infoContentBlock.active {padding-top: 0; margin-top: 40px;}
+    .blogCmsContent .infoContentBlock {margin-top: 40px;}
+    .pageScrollNav {margin-bottom: 30px;}
+    .stepBLock {padding: 40px 15px;}
+    /*****cms-page-css-start*****/
+    .cmsContent table {min-width: 990px;}
+    /*off grid popup css start*/
+    .grid-off .modal-content {padding: 10px;}
+    .grid-off .modal-footer {justify-content: center !important;}
+    .grid-off .modal-footer .btn-custom {width: 100%; margin-top: 20px;}
+    /*off grid calculator step css start*/
+    .appliance-field-block .field-row {gap: 10px;}
+    .appliance-field.large {max-width: 162px;}
+    .cmsContent h4.mrg-t100 {margin-top: 35px;}
+    .cmsContent h4.mrg-t145 {margin-top: 40px;}
+    .standard-section .pageScrollNav {margin-top: 0; margin-bottom: 0;}
+    .blog-page-detail-top-left h1 {font-size: 54px;}
+    /*popular calculators css start*/
+    .popular-calculators {padding: 35px 0 55px;}
+    .cost-saving-left {width: 100%;}
+    .cost-saving-block {margin-top: 35px;}
+    .cost-saving-block .calculate-saving {width: 100%;}
+    .cost-saving-block .calculate-saving h5 {margin-bottom: 15px;}
+    .cost-saving-left .small-btn {line-height: 29px;}
+    /*popular calculators css end*/
+    }
+    
+    @media screen and (max-width: 767px){
+    h1 {font-size: 54px;}
+    h2, .h2 {font-size: 40px;}
+    h3 {font-size:30px;}
+    h4 {font-size: 26px;}
+    h5 {font-size:18px;}
+    .padding-top-bottom-60 {padding-top:30px;padding-bottom:30px;}
+    .padding-top-bottom-130 {padding-top:80px;padding-bottom:80px;}
+    .padding-top-bottom-100 {padding-top:60px;padding-bottom:60px;}
+    .mobile-img {width: 100% !important; height: auto !important;}
+    .breadcrumb {margin-bottom: 28px;}
+    .circleList li {margin-bottom: 15px;}
+    .banner-block {height: auto;text-align: center; min-height: auto;}
+    .banner-video {height:500px;width: 100%;}
+    .banner-right {height:auto;width: 100%;}
+    .banner-caption-card {padding: 40px 20px;height: auto !important;justify-content: center;}
+    .banner-caption-card-inner {max-width: 100%;}
+    .banner-caption-card .btn-custom {margin: 0 auto;}
+    .video-caption {max-width: 100%;padding-right:15px;left: 0;right: 0;padding-left:15px;}
+    .video-caption h1 {margin-bottom: 20px;}
+    .video-caption-list ul{justify-content: center;}
+    .video-caption-list ul li {font-size: 29px;}
+    .video-caption-list ul li small {font-size: 15px;}
+    .banner-video video.desktop-video {display: none;}
+    .mobile-image {display: block;width: 100%;height: 100%;object-fit: cover;}
+    .proudly-featured-block ul{flex-wrap: wrap;}
+    .proudly-featured-block ul li{width:50%;flex:0 0 50%;}
+    .proudly-featured-block {padding: 20px 0;}
+    .saving-calculator-uper {width: auto;left: 10px;right: 10px;display: flex;text-align: left;align-items: center;justify-content: space-between;padding: 20px 30px;}
+    .saving-calculator-uper.active {bottom: 10px;}
+    .saving-calculator-uper h5 {font-size: 18px; margin: 0 15px 0 0;}
+    .saving-calculator-uper p {display: none;}
+    .saving-calculator-uper .btn-custom {font-size: 0;width: 40px;height: 40px;padding: 0;display: flex;justify-content: center;align-items: center;min-width: 40px;}
+    .saving-calculator-uper .btn-custom i {display: block;margin: 0;width: 100%;}
+    .saving-block {height: 180px;}
+    .saving-block img{width:100%;height: 100%;object-fit: cover;}
+    .how-works-card i {width: auto;}
+    .heading-block p {padding-top: 15px;font-size: 18px;}
+    .our-calculator-block .heading-block p {font-size: 18px;}
+    .how-works-card {margin: 0 auto 50px;}
+    .our-calculator-card i {width: 68px;flex: 0 0 68px;}
+    .guide-left {max-width: 100%;padding-bottom: 80px;}
+    .heading-block {padding-bottom: 30px;}
+    .guide-slider-card {padding:20px 20px 40px;}
+    .guide-slider-img {width: 185px;margin-right: 0;margin: 0 auto 50px;}
+    .guide-tag {padding-bottom: 16px;}
+    .guide-slider-info h4 {margin: 0 0 16px;}
+    .guide-slider-info p {margin-bottom: 16px;}
+    .resource-img {margin-right: 20px;margin-left: 20px;margin-bottom: 30px;}
+    .accordion-custom .card-link {font-size: 19px;padding: 18px 0;padding-right: 40px;}
+    .col-over-img {order: 2;}
+    .helped-over-info ul li span {font-size: 19px;padding-bottom:10px;}
+    .helped-over-info ul li {padding-left: 40px;margin-bottom: 30px;background-size: 26px;}
+    .helped-over-info {padding-bottom: 50px;}
+    .know-block {padding:20px;text-align: center;}
+    .know-block-inst i {width: auto;margin-right: 0;display: block;margin: 0 auto 30px;}
+    .know-block-inst p {font-size: 20px;}
+    .quote-block {min-height: 500px;padding:0 15px;}
+    .quote-heading {font-size: 40px;max-width:100%;}
+    .quote-inner:before {left: 0;top: -70px;}
+    .quote-inner:after {right:0;top:auto;bottom:-70px;}
+    .brighter-future-left {padding-right: 0;}
+    .brighter-future-text p {font-size: 18px;}
+    .brighter-future-text {padding-top: 20px;padding-bottom: 40px;max-width:100%;}
+    .brighter-left-img {padding-bottom: 140px;width: 148px;}
+    .brighter-future-img {margin-top: 0;}
+    .future-tx {top: -90px;left: auto;width: 200px;height: 200px;right:-1px;background: #F8F6F3;}
+    .future-tx span {font-size: 16px;}
+    .future-tx span strong {font-size: 46px;}
+    .blog-card-img {height: 170px;}
+    .blog-card-info {padding: 25px;}
+    .blog-card-info h5{font-size:22px;}
+    .benefits-img {width: 100%;}
+    .benefits-info {padding: 40px 20px;width: 100%;}
+    .footer-left {padding-top: 50px;padding-bottom: 50px;padding-left:10px;padding-right:10px;}
+    .ft-logo {margin-bottom: 40px;}
+    .ft-info-block .ft-info-block-col {width: 100%;}
+    .ft-info-heading {padding-bottom: 15px;}
+    .ft-info-link {font-size: 17px;padding-bottom:15px;}
+    .ft-info-block-col p {max-width: 100%;}
+    .footer-right {border-top: solid 1px #78887d;border-left: none;margin: 0 -15px;padding: 30px 25px;}
+    .social-links {padding-top:40px;}
+    .footer-bottom {border-top: solid 1px #78887d;margin: 0 -15px;padding: 30px 25px;}
+    .blog-block {overflow: hidden;}
+    .page-template-page-home-tmp .blog-list-outer {margin: 0 -15px;padding-left: 15px;overflow: auto;-ms-overflow-style: none; scrollbar-width: none;overflow-y: scroll;}
+    .page-template-page-home-tmp .blog-list-outer::-webkit-scrollbar {display: none;}
+    .page-template-page-home-tmp .blog-list-outer .row{margin:0;width: 1040px;}
+    .page-template-page-home-tmp .blog-list-outer .row .col-4{padding-right:10px;padding-left:0;}
+    .blog-card {margin-bottom: 20px;}
+    .blog-block .heading-block .btn-custom{display: none;}
+    .about-section-one{padding-top:60px;padding-bottom:60px;}
+    .about-section-one .about-section-one-img{padding-bottom:30px;}
+    .about-section-one .about-section-one-img img{display: block;width:100%;}
+    .about-section-two-info{padding-top:30px;}
+    .client-logo-list {margin: 0 -15px;flex-wrap: wrap;}
+    .client-logo-list li {width:50%;flex: 0 0 50%;padding-top:8px;padding-bottom:8px;}
+    .about-section-five .guide-left h4 {padding-bottom: 30px;margin-bottom: 0;}
+    .about-section-five .guide-left {max-width: 100%;padding-bottom: 0;}
+    .about-section-five .resource-img {margin-right: 0;margin-left:0;margin-bottom: 0;}
+    .about-section-five .guide-slider-block {padding-left: 0;padding-right: 0;}
+    .about-section-five .helped-over-info {padding-left: 0;padding-top: 20px;padding-bottom: 0;}
+    .about-section-six .helped-transition-li{padding-bottom:20px;}
+    .about-section-six .helped-transition-li ul li {padding-right:0;width:100%;}
+    .faq-block .accordion-custom .card-link {font-size: 20px;padding: 20px 0;}
+    .faq-block .accordion-custom .card-link:after {top: 18px;}
+    .about-section-five .helped-over-info ul li{background: url(../images/check-icon.svg) no-repeat left top -1px;}
+    .about-section-saven-bottom {display: none;}
+    .about-section-saven-left{padding-bottom:60px;}
+    .about-section-saven-right .about-section-saven-bottom {display: block;padding-top:50px;}
+    .width-50 {max-width:100%;flex: 0 0 100%;}
+    .width-60{max-width:100%;flex:0 0 100%;}
+    .width-40{max-width:100%;flex:0 0 100%;}
+    .top-blog-card {text-align: center;}
+    .category-tag-list {justify-content: center;}
+    .blog-section-one {min-height: inherit; height: auto;}
+    .blog-section-one-right {padding-top:40px;padding-bottom:40px;}
+    .blog-section-one-right .small-heading-pages {text-align: center;padding-bottom:20px;}
+    .blog-section-one-right .blog-card {max-width: 100%;}
+    .blog-page-block .blog-block .heading-block{padding-bottom:20px !important;}
+    .contact-detail-block p {font-size: 19px;}
+    .contact-page-main-card .heading-block, .contact-detail-block {margin-bottom: 0 !important;}
+    .contact-links {font-size: 19px;}
+    .contact-page-form {padding: 20px;}
+    .contact-page-form h5 {margin-bottom: 0;}
+    .form-check-list{padding-bottom:0 !important;}
+    .form-check-list .customcheckBox {margin-right: 0;display: block;margin-bottom: 20px;}
+    .saving-categories{display: block;text-align: center; padding: 50px 0;}
+    .saving-categories i {width: 76px;margin: 0 auto 20px;}
+    .saving-categories .saving-calculator-right{padding-top:20px;}
+    .calculator-form {flex-wrap: wrap; justify-content: center; text-align: left;}
+    .calculator-left-text p {margin-left: auto; margin-right: auto;}
+    .saving-calculator-uper .error-message-sec {width: 100%;flex: 0 0 calc(100% - 150px);}
+    .saving-categories .saving-calculator-right .post-input {width: 100%;flex: 0 0 100%;margin-right: 0;margin-left: 0;margin-bottom:10px;}
+    .saving-categories .saving-calculator-right .btn-custom {margin-top: 10px;font-size: 16px;border-radius: 50px;width: auto;padding: 0 30px;height: 46px;}
+    .blog-page-block .blog-block .blog-mobile-btn{text-align: left !important;}
+    .calculate-step-card {padding: 35px 20px;}
+    .what-we-left {margin: 40px 0 0 0;}
+    .what-we-right {margin-left: 0; margin-top: 50px;}
+    .helped-transition-li ul li {width: 100%;}
+    .what-we-right ul {width: 100%; flex: 0 0 100%;}
+    .postcode-input.max-width-300 {margin-top: 60px; max-width: 225px;}
+    .postcode-input .form-group.max-width-115 { max-width: 100%; flex: 0 0 100%;}
+    .calculate-step-card h3 br{display: none;}
+    .electricity-tag {padding: 27px 35px;}
+    .span-small {padding-bottom: 28px;}
+    .electricity-tag-left {border-right: 0;border-bottom: solid 1px #78887d;padding-bottom: 10px;margin: 0px auto 10px;}
+    .electricity-tag-right .info-icon {position: absolute; right: 0; bottom: 15px;}
+    .saving-how {width: 100%;}
+    .saving-price {width: 100%;}
+    .switch-card-block span {font-size: 16px;}
+    .switch-card-block {margin-top: 40px; margin-bottom: 30px;}
+    .postcode-input-form .form-group {flex-wrap: wrap;}
+    .postcode-input-form .form-group label {padding: 0 0 10px 0;}
+    .postcode-input-form .info-icon {margin-top: 30px;}
+    .calculate-main-step-footer {margin: 0 -35px;}
+    .results-card-block-left {display: none;}
+    .results-card-block-right {max-width: 450px; flex: 0 0 100%; margin: auto; padding: 30px 11px;}
+    .resutlBtnGroup .btn-custom {width: 100%;}
+    .results-card-block {margin: 0; padding: 0;}
+    .resultNo b {font-size: 25px;}
+    .tab-custom .nav-tabs .nav-link {font-size: 14px;}
+    .resultNo {padding: 10px 14px;}
+    .resutlList li {font-size: 15px;}
+    .resutlBtnGroup .textLink {display: block; margin-top: 20px;}
+    .quote-footer {flex-wrap: wrap; text-align: center;margin-left: 0;margin-right: 0;}
+    .quote-footer .btn-custom {margin: 20px auto 0;}
+    .disclaimerText {padding: 25px 10px 0;}
+    .calculate-step-card.calculator-step-thirteen {padding: 30px 0;}
+    .our-calculator-block.slider-block .container {padding-left: 15px;}
+    .what-we-block {padding-bottom: 50px;}
+    .postcode-input .info-icon {z-index: inherit;}
+    .blog-page-detail-img img {height: auto !important; width: 100% !important;}
+    /******Quote-Page-Css-Start******/
+    .quote-step-one {max-width: 226px;}
+    .helped-transition.decision .decision-left-text {margin-bottom: 25px;}
+    .helped-transition.decision .decision-left-text p {max-width: 100%;}
+    .helped-transition-li.full-width ul li {margin-bottom: 0;margin-top: 20px;}
+    .reviewBox {width: 342px;}
+    /*****System-size-page-css-start*****/
+    .systemSizeCalculator .resultShow .quote-footer {flex-wrap: wrap;}
+    .systemSizeCalculator .resultShow .quote-footer .quote-left-text {width: 100%;}
+    .systemSizeCalculator .resultShow .quote-footer .btn-custom {margin: 20px auto 0;}
+    .solarSystemInfo .infoContentBlock {padding-right: 0;}
+    .blogCmsContent .infoContentBlock {padding-right: 0;}
+    .solarSystemInfo .infoContentBlock .subTextBlock {margin: 25px 0;}
+    .textBtnBlock {flex-wrap: wrap;}
+    .textBtnBlock .textBlock {text-align: center; width: 100%;}
+    .textBtnBlock .btn-custom {margin: 20px auto 0;}
+    .systemSizeCalculator .resultStats .stats {padding: 15px;}
+    .systemSizeCalculator .resultStats .stats strong {font-size: 25px;}
+    .systemSizeCalculator .resultStats .rightStats .stats strong {font-size: 45px;margin-top: 10px;}
+    .systemSizeCalculator .resultStats .rightStats .stats b {font-size: 25px;}
+    .solarSystemInfo .infoContentBlock table {width: 100%;}
+    .solarSystemInfo .infoContentBlock.otherLinks {flex-wrap: wrap;} 
+    .linksBlock {width: 100%; margin-bottom: 30px;}
+    .linksBlock:last-child {margin-bottom: 0;}
+    .popularSteps h3 {margin-bottom: 0;}
+    .stepBLock {height: auto; margin-top: 30px;}
+    .solarSystemInfo .infoContentBlock .circleList {margin-top: 20px; margin-bottom: 20px;}
+    /* .solarSystemInfo .infoContentBlock h3 {margin-bottom: 20px;} */
+    .solarSystemInfo .infoContentBlock .textBtnBlock {width: 100%;}
+    .solarSystemInfo .infoContentBlock.bdrtop {margin-right: 0;}
+    .blogCmsContent .infoContentBlock.bdrtop {margin-right: 0;}
+    /******Standard-page-css-start******/
+    .tab-custom .tabBlock {padding-left: 0; padding-right: 0;}
+    .imageTextBlock .contentBlock.padL {padding: 0;}
+    .imageTextBlock .contentBlock.padR {padding: 0;}
+    .blog-card-info.paddingMobile {padding-left: 0; padding-right: 0;}
+    /*off grid calculator step css start*/
+    .appliance-field.large {max-width: 100%;}
+    .appliance-field {max-width: calc(25% - 8px);}
+    .labelInputInfo {max-width: 345px; border-radius: 10px; padding: 15px 20px 15px 15px;}
+    .labelInputInfo .form-group {margin: 5px 0 0 0;width: calc(100% - 30px);}
+    .labelInputInfo .form-control {max-width: 100%;}
+    .page-template-page-standard-tmp .main-wrapper h2 {margin-bottom: 20px;}
+    /*popular calculators css start*/
+    .cost-saving-left i {margin: 0 auto 15px;}
+    .cost-saving-left .content-block {width: 100%; text-align: center;}
+    .solar-saving-heading p {font-size: 16px;}
+    /*popular calculators css end*/
+    .standard-page-common {display: block;}
+    .table-responsive.lrg-table table {width: 767px;padding-bottom: 10px;}
+    }
+    
+    @media only screen and (max-width: 479px) {
+    h1 {font-size: 45px;}
+    .blog-page-detail-top-left h1 {font-size: 38px;}
+    }
+    
+    @media only screen and (max-width: 414px) {
+    /*off grid popup css start*/
+    .grid-off .modal-content {padding: 0;}
+    .grid-off .modal-footer .btn-custom {margin-top: 5px;font-size: 12px;padding: 0 0;height: 35px;line-height: 32px;}
+    /*off grid calculator step css start*/
+    .appliance-field {max-width: calc(50% - 5px);}
+    }

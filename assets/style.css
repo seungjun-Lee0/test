@@ -1,0 +1,388 @@
+@charset "UTF-8";
+
+/*
+Theme Name: Solar Calculator
+Author: Dotsquares
+Author URI: https://wordpress.org/
+Description: Solar Calculator is a blank canvas for your ideas and it makes the block editor your best brush. With new block patterns, which allow you to create a beautiful layout in a matter of seconds, this theme’s soft colors and eye-catching — yet timeless — design will let your work shine. Take it for a spin! See how Solar Calculator elevates your portfolio, business website, or personal blog.
+Requires at least: 5.3
+Tested up to: 6.4
+Requires PHP: 5.6
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: solarcalculator
+Tags: one-column, accessibility-ready, custom-colors, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, block-patterns, rtl-language-support, sticky-post, threaded-comments, translation-ready
+
+Solar Calculator WordPress Theme, (C) 2020 WordPress.org
+Solar Calculator is distributed under the terms of the GNU GPL.
+*/
+
+/**
+ * SETTINGS
+ * File-header..........The file header for the themes style.css file.
+ * Fonts................Any font files, if the project needs specific fonts.
+ * Global...............Project-specific, globally available variables.
+ *
+ * TOOLS
+ * Functions............Global functions.
+ * Mixins...............Global mixins.
+ *
+ * GENERIC
+ * Normalize.css........Normalise browser defaults.
+ * Breakpoints..........Mixins and variables for responsive styles
+ * Vertical-margins.....Vertical spacing for the main components.
+ * Reset................Reset specific elements to make them easier to style in other contexts.
+ * Clearings............Clearings for the main components.
+ *
+ * ELEMENTS
+ * Blockquote...........Default blockquote.
+ * Forms................Element-level form styling.
+ * Headings.............H1–H6
+ * Links................Default links.
+ * Lists................Default lists.
+ * Media................Images, Figure, Figcaption, Embed, iFrame, Objects, Video.
+ *
+ * BLOCKS
+ * Audio................Specific styles for the audio block.
+ * Button...............Specific styles for the button block.
+ * Code.................Specific styles for the code block.
+ * Columns..............Specific styles for the columns block.
+ * Cover................Specific styles for the cover block.
+ * File.................Specific styles for the file block.
+ * Gallery..............Specific styles for the gallery block.
+ * Group................Specific styles for the group block.
+ * Heading..............Specific styles for the heading block.
+ * Image................Specific styles for the image block.
+ * Latest comments......Specific styles for the latest comments block.
+ * Latest posts.........Specific styles for the latest posts block.
+ * Legacy...............Specific styles for the legacy gallery.
+ * List.................Specific styles for the list block.
+ * Media text...........Specific styles for the media and text block.
+ * Navigation...........Specific styles for the navigation block.
+ * Paragraph............Specific styles for the paragraph block.
+ * Pullquote............Specific styles for the pullquote block.
+ * Quote................Specific styles for the quote block.
+ * Search...............Specific styles for the search block.
+ * Separator............Specific styles for the separator block.
+ * Table................Specific styles for the table block.
+ * Verse................Specific styles for the verse block.
+ * Video................Specific styles for the video block.
+ * Utilities............Block alignments.
+ *
+ * COMPONENTS
+ * Header...............Header styles.
+ * Footer...............Footer styles.
+ * Comments.............Comment styles.
+ * Archives.............Archive styles.
+ * 404..................404 styles.
+ * Search...............Search styles.
+ * Navigation...........Navigation styles.
+ * Footer Navigation....Footer Navigation styles.
+ * Pagination...........Pagination styles.
+ * Single...............Single page and post styles.
+ * Posts and pages......Misc, sticky post styles.
+ * Entry................Entry, author biography.
+ * Widget...............Widget styles.
+ * Editor...............Editor styles.
+ *
+ * UTILITIES
+ * A11y.................Screen reader text, prefers reduced motion etc.
+ * Color Palette........Classes for the color palette colors.
+ * Editor Font Sizes....Editor Font Sizes.
+ * Measure..............The width of a line of text, in characters.
+ */
+
+/* Categories 01 to 03 are the basics. */
+
+/* Variables */
+
+.custom-rangeslider__tooltip.currency-sign:after {
+   content: "$";
+}
+
+.custom-rangeslider__tooltip.kilowat:after {
+   content: "kWh";
+}
+.custom-rangeslider__tooltip.without-sign:after {
+   content: " ";
+}
+
+.custom-renge-input2 {width: 100%;-webkit-appearance: none;-moz-appearance: none;appearance: none;box-sizing: border-box;cursor: pointer;outline: 0;border: 0;padding: 0;margin: 0;background-color: transparent;height: 20px;}
+.custom-renge-input2::-webkit-slider-thumb {-webkit-appearance: none;appearance: none;box-sizing: border-box;background-color: #394d42;width: 20px;height: 20px;border: none;border-radius: 50%;cursor: move;cursor: grab;cursor: -webkit-grab;margin-top: -8px;}
+ .custom-renge-input2::-webkit-slider-thumb:active {cursor: grabbing;cursor: -webkit-grabbing;}
+.custom-renge-input2::-moz-range-thumb {-moz-appearance: none;appearance: none;box-sizing: border-box;background-color: #394d42;width: 20px;height: 20px;border: none;border-radius: 50%;cursor: move;cursor: grab;cursor: -webkit-grab;}
+.custom-renge-input2::-moz-range-thumb:active {cursor: grabbing;cursor: -webkit-grabbing;}
+.custom-renge-input2::-ms-thumb {appearance: none;box-sizing: border-box;background-color: #394d42;width: 16px;height: 16px;border: none;border-radius: 50%;cursor: move;cursor: grab;cursor: -webkit-grab;margin: auto;}
+.custom-renge-input2::-ms-thumb:active {cursor: grabbing;cursor: -webkit-grabbing;}
+.custom-renge-input2::-webkit-slider-runnable-track {-webkit-appearance: none;appearance: none;box-sizing: border-box;height: 5px;width: 100%;cursor: pointer;border: none;padding: 0;margin: 0;background: #F1F1EA; border-radius: 100px;}
+.custom-renge-input2::-moz-range-track {-moz-appearance: none;appearance: none;box-sizing: border-box;height: 7px;width: 100%;border-radius: 25px;cursor: pointer;border: none;padding: 0;margin: 0;background: #F1F1EA; border-radius: 100px;}
+.custom-renge-input2::-ms-track {appearance: none;box-sizing: border-box;height: 5px;width: 100%;cursor: pointer;border: none;padding: 0;margin: 0;background: #F1F1EA;color: transparent;border: none;outline: none; border-radius: 100px;}
+.custom-renge-input2:focus, .custom-renge-input2:active {outline: none;}
+ .custom-renge-input2::-ms-tooltip {display: none;}
+
+
+
+.hide-common-class,
+.d-lg-flex.hide-common-class {
+    display: none !important;
+}
+#solarform {overflow-x: hidden;}
+.step {
+   display: none;
+}
+.step.active-step {
+   right: 0;
+}
+.page-template-page-solar-quote-steps-tmp .step {
+   display: none;
+   position: relative;
+   animation: fadeIn 2s, slideInRight 0.5s;
+}
+.hide-advance{
+ display: none !important;
+}
+.error,
+.wpcf7-not-valid-tip {
+   color: #D06F6F !important;
+   font-size: 14px !important;
+}
+span.perday {
+   display: none;
+}
+
+@-webkit-keyframes slideInRight {
+   0% {
+   opacity:0;
+   -webkit-transform:translateX(2000px);
+   transform:translateX(2000px)
+   }
+   100% {
+   -webkit-transform:translateX(0);
+   transform:translateX(0)
+   }
+}
+
+@-webkit-keyframes fadeIn {
+   0% {
+   opacity:0
+   }
+   100% {
+   opacity:1
+   }
+}
+
+/*widht css start*/
+.max-width-350 {max-width: 350px}
+.max-width-130 {max-width: 130px; flex: 0 0 130px}
+
+/*contact form css start*/
+.contact-page-form .form-check-list .wpcf7-list-item {margin: 0 30px 0 0;}
+.contact-page-form .form-check-list .wpcf7-list-item label {color: #7B7B7B; position: relative; margin: 0 0 15px 0; padding: 0 0 0 30px;}
+.contact-page-form .form-check-list .wpcf7-list-item label input {opacity: 0; width: 20px; height: 20px; top: 2px; position: absolute; left: 0;}
+.contact-page-form .form-check-list .wpcf7-list-item label span:before {position: absolute;top: 2px;left: 0;height: 20px;width: 20px;background-color: #fff;border-radius: 0;border: 1px solid #7B7B7B;}
+.contact-page-form .form-check-list .wpcf7-list-item label input:checked+span::before { position: absolute;background-color: #9FDA47;border-color: #9FDA47;}
+.contact-page-form .form-check-list .wpcf7-list-item label input:checked+span:after {left: 6px;top: 4px;width: 7px;position: absolute;height: 12px;border: solid white;border-width: 0 2px 2px 0;-webkit-transform: rotate(45deg);-ms-transform: rotate(45deg);transform: rotate(45deg);content: "";}
+
+
+/*****cms-page-css-start*****/
+.cmsContent h1 {font-size: 80px;}
+.cmsContent h1, .cmsContent h2, .cmsContent h3, .cmsContent h4, .cmsContent h5 {margin-bottom: 30px; line-height: 1;}
+.cmsContent img {max-width: 100%; display: block; margin-top: 40px; margin-bottom: 40px;}
+.cmsContent ul {margin-bottom: 30px;}
+.cmsContent table {margin-bottom: 30px; width: 100%;margin-top: 20px;}
+.cmsContent table tr th {font-size: 11px; color: #1E221D; font-weight: 400; text-transform: uppercase; padding-bottom: 10px; letter-spacing: 1px; border-bottom: solid 1px #7B7B7B;}
+.cmsContent table tr td {border-bottom: solid 1px rgba(123,123,123, 0.4); padding: 10px 0;}
+.cmsContent .btn-custom {margin-bottom: 30px;}
+.cmsContent blockquote {font-size: 24px;color: #315A43;border-left: solid 3px #9FDA47;padding-left: 30px;margin-bottom: 50px;margin-top: 30px;}
+.cmsContent blockquote p {color: #315A43;}
+.cmsContent ul li {position: relative;font-size: 16px; width: 100%; color: #1E221D;padding-left: 35px;margin-bottom:20px;}
+.cmsContent ul li:last-child {margin-bottom: 0;}
+.cmsContent ul li:after{position: absolute;left:0;top:1px;content: "";background: url(assets/images/check-icon.svg) no-repeat;width:22px;height:22px; background-size: 100%;}
+.cmsContent a {text-decoration: underline; color: #394D42;}
+.cmsContent a:hover {color: #315A43; text-decoration: underline;}
+.cmsContent ol {list-style: none;counter-reset: custom-counter;padding-left: 0; margin-bottom: 20px;}
+.cmsContent ol li {position: relative;margin-bottom: 10px;line-height: 1.5; padding-left: 15px;}
+.cmsContent ol li:before {content: counter(custom-counter);counter-increment: custom-counter;position: absolute; left: 0; font-family: 'pp_telegrafultrabold'; font-size: 13px; text-align: right;color: #007E5D;}
+.resultNo {width: 50%; padding: 15px 0 !important;}
+
+@media screen and (max-width: 1199px){
+.cmsContent h1 {font-size: 60px;}
+}
+
+@media screen and (max-width: 991px){
+.cmsContent h1 {font-size: 40px;}
+}
+
+@media screen and (max-width: 767px){
+h1 {font-size: 54px;}
+/*widht css start*/
+.max-width-130 {max-width: 100%; flex: 0 0 100%;}
+}
+/*****cms-page-css-end*****/  
+
+/*****loader css start*****/  
+.load-more-container a.loading::after {
+    content: ' ';
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    border-top: 2px solid #3498db;
+    border-bottom: 2px solid #3498db;
+    animation: spin 1s linear infinite;
+    margin-left: 5px;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+
+
+/*****loader css end*****/  
+
+
+.loader-outer {
+    background-color: rgba(0,0,0, 0.5);
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.spinner {
+    position: relative;
+    width: 37px;
+    height: 37px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ 
+ .spinner::before,
+ .spinner::after {
+    border: 3.7px solid #ffffff;
+    border-radius: 50%;
+    position: absolute;
+    content: '';
+    display: block;
+ }
+ 
+ .spinner::before {
+    width: 23.6px;
+    height: 23.6px;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    animation: spinner-1o3y8q 1.0499999999999998s infinite linear reverse;
+ }
+ .advance-hide{
+	 display:none;
+ }
+
+ .spinner::after {
+    animation: spinner-1o3y8q 0.7s infinite linear;
+    height: 37px;
+    width: 37px;
+    border-right-color: transparent;
+    border-top-color: transparent;
+ }
+
+ .home-loader-outer {
+   background-color: #394D42;
+   content: "";
+   position: fixed;
+   top: 0;
+   left: 0;
+   z-index: 999;
+   width: 100%;
+   height: 100%;
+   justify-content: center;
+   align-items: center;
+   display: flex;
+ }
+
+ .spinner span {
+   display: block;
+   color: #fff;
+   margin-top: 75px;
+   font-size: 16px;
+ }
+
+ .loader-logo {
+   position: absolute;
+   top: 0;
+   left: auto;
+   right: auto;
+   margin: 60px auto 0;
+   max-width: 145px;
+ }
+ 
+ @keyframes spinner-1o3y8q {
+    to {
+       transform: rotate(360deg);
+    }
+ }
+
+/*quantity selctor css start*/
+
+ .quantity {
+   position: relative;
+   width: 100%;
+   height: 48px;
+ }
+ .quantity input {
+   display: block;
+   width: 100%;
+   height: 100%;
+   padding-right: 27px;
+   -moz-appearance: textfield;
+ }
+ .quantity input::-webkit-inner-spin-button, .quantity input::-webkit-outer-spin-button {
+   -webkit-appearance: none;
+   margin: 0;
+ }
+ .quantity__btn {
+   position: absolute;
+   right: 5px;
+   width: 23px;
+   height: 15px;
+   cursor: pointer;
+ }
+ .quantity__btn:after {
+   position: absolute;
+   content: "";
+   left: 7px;
+   border-width: 5px;
+   border-style: solid;
+ }
+ .quantity__btn--up {
+   top: 8px;
+ }
+ .quantity__btn--up:after {
+   top: 0;
+   border-color: transparent transparent #7B7B7B transparent;
+ }
+ .quantity__btn--down {
+   bottom: 9px;
+ }
+ .quantity__btn--down:after {
+   bottom: 0;
+   border-color: #7B7B7B transparent transparent transparent;
+ }
+
+ .quantity__btn--up:hover:after {
+   border-color: transparent transparent #1E221D transparent;
+ }
+
+ .quantity__btn--down:hover:after {
+   border-color: #1E221D transparent transparent transparent;
+ }
