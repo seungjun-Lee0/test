@@ -158,7 +158,7 @@ $(".guide-slider").owlCarousel({
         }else{
           obj.nextElementSibling.style.display = "none";
         }
-        updateProgress(obj, '#f8f6f3', '#9fda47', thumbPos);
+        updateProgress(obj, '#f8f6f3', '#3068a5', thumbPos);
       }
   
       var getThumbPosition = function(obj){
@@ -225,7 +225,7 @@ $(".guide-slider").owlCarousel({
         }else{
           obj.nextElementSibling.style.display = "none";
         }
-        updateProgress(obj, '#f8f6f3', '#9fda47', thumbPos);
+        updateProgress(obj, '#f8f6f3', '#3068a5', thumbPos);
       }
   
       var getThumbPosition = function(obj){
